@@ -8,6 +8,7 @@ import Simcard from './components/SimpleCard/SimpleCard'
 import About from './components/AboutUs/aboutus'
 import Whatwedo from './components/Whatwedo/whatwedo';
 import ContactUs from './components/ContactUs/ContactUs'
+import Logo from "./images/Navbarlogo.jpg";
 
 const divStyle = {
   width: '100%',
@@ -45,7 +46,17 @@ function App() {
           <div id="contactus" className="ContactUs">
             <h2 style={{ color: "white" }}>Contact US</h2>
             <hr />
-            <ContactUs/>
+            <div style={{ textAlign: "center" }}>
+              <h3 style={{ color: "#E7F6F7" }}>Feel Free to Contact Us</h3>
+            </div>
+            <div>
+              <img
+                style={{ width: "105px", backgroundColor: "white" }}
+                src={Logo}
+                alt={"Welcome"}
+              ></img>
+            </div>
+            <ContactUs />
           </div>
         </Container>
       </div>
