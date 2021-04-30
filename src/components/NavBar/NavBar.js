@@ -38,6 +38,7 @@ export default function ButtonAppBar() {
           <Button color="#E4E4E4">Home</Button>
           <Button href='#aboutus' color="inherit">About Us</Button>
           <Button href='#whatwedo' color="inherit">What we do</Button>
+          <Button href='#contactus' color="inherit">Contact Us</Button>
         </Toolbar>
       </AppBar>
     </div>
