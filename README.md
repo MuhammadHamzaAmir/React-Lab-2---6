@@ -1,10 +1,10 @@
 # It contains the React Lab2 and 6 of Software Construction
 ## React Lab 2
 
-**Run these npm commands for required dependencies**
-`npm install @material-ui/core`
-`npm install react-toastify`
-`npm install react-hook-form`
+**Run these npm commands for required dependencies**<br>
+`npm install @material-ui/core`<br>
+`npm install react-toastify`<br>
+`npm install react-hook-form`<br>
 
 ### Task 1
 - Make a simple web page using react.
