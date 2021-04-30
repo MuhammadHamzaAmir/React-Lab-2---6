@@ -74,3 +74,18 @@
   left: -150px;
   z-index: -1;
 }
+
+.ContactUs {
+  height: 500px;
+  background-color: DarkSlateGray;
+  position: relative;
+}
+.Contact::before {
+  content: "";
+  background-color: DarkSlateGray;
+  position: absolute;
+  height: 100%;
+  width: 1440px;
+  left: -150px;
+  z-index: -1;
+}

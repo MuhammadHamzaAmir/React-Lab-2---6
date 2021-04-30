@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar'
 import Simcard from './components/SimpleCard/SimpleCard'
 import About from './components/AboutUs/aboutus'
 import Whatwedo from './components/Whatwedo/whatwedo';
+import ContactUs from './components/ContactUs/ContactUs'
 
 const divStyle = {
   width: '100%',
@@ -19,28 +20,36 @@ function App() {
   
   return (
     <div className="App">
-      <div style={{ 'paddingTop':'0px' }}>
-      <NavBar/>
-      <div className='Header'>
-          <Simcard/>
-      </div>
-      <Container fixed>
-          <div id='aboutus' className='AboutUs'>
-            <h2 style={{'color':'white'}}>ABOUT US</h2>
-            <hr/>
-            <About/>
+      <div style={{ paddingTop: "0px" }}>
+        <NavBar />
+        <div className="Header">
+          <Simcard />
+        </div>
+        <Container fixed>
+          <div id="aboutus" className="AboutUs">
+            <h2 style={{ color: "white" }}>ABOUT US</h2>
+            <hr />
+            <About />
           </div>
-          <div id='whatwedo' className='WhatWeDo'>
-          <h2 style={{'color':'white'}}>WHAT WE DO</h2>
-          <hr/>
-          <div style={{ 'textAlign':'center'}}>
-            <h3 style={{'color':'#E7F6F7'}}>WE JUST SUFFER IN NOTHINGNESS</h3>
-          </div>
+          <div id="whatwedo" className="WhatWeDo">
+            <h2 style={{ color: "white" }}>WHAT WE DO</h2>
+            <hr />
+            <div style={{ textAlign: "center" }}>
+              <h3 style={{ color: "#E7F6F7" }}>
+                WE JUST SUFFER IN NOTHINGNESS
+              </h3>
+            </div>
             <Whatwedo></Whatwedo>
           </div>
+
+          <div id="contactus" className="ContactUs">
+            <h2 style={{ color: "white" }}>Contact US</h2>
+            <hr />
+            <ContactUs/>
+          </div>
         </Container>
-        </div>
       </div>
+    </div>
   );
 }
 
