@@ -1,5 +1,11 @@
 # It contains the React Lab2 and 6 of Software Construction
 ## React Lab 2
+
+**Run these npm commands for related libraries**
+`npm install @material-ui/core`
+`npm install react-toastify`
+`npm install react-hook-form`
+
 ### Task 1
 - Make a simple web page using react.
 - Set the background of your choice
@@ -17,7 +23,7 @@
 
 - Continue the above tasks and make another section named “what we do”.
 - Add a heading some text in this section.
-- Insert at least 3 different cards using “https://material-ui.com/”.
+- Insert at least 3 different cards using “ https://material-ui.com/ ”.
 - Add some text on the cards.
 - Join all three sections.
 
