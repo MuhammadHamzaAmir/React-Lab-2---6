@@ -1,3 +1,43 @@
+# It contains the React Lab2 and 6 of Software Construction
+## React Lab 2
+### Task 1
+- Make a simple web page using react.
+- Set the background of your choice
+- Add a name and logo of your choice on the top left corner
+- Make a top navigation bar on the upper right corner and add 3-4 components (No need to make pages for components, just make a navigation bar)
+- Make an introduction section and add a heading, some text and a picture on the page
+
+-----------
+
+### Task 2
+-  Continue the task 1 and add an about us section below the introduction section.
+-  Add a picture, heading and some text in this section as shown in the ss.
+
+### Task 3
+
+- Continue the above tasks and make another section named “what we do”.
+- Add a heading some text in this section.
+- Insert at least 3 different cards using “https://material-ui.com/”.
+- Add some text on the cards.
+- Join all three sections.
+
+## React Lab 6
+### Task
+
+- Continue with your previous lab 6.
+- Create a “Contact us” form using React.
+- Connect the page with “Contact Us” in the navigation bar of the page you designed in the previous lab; “Styling in React”.
+- Add a heading and some text in the center of a page.
+- Make 5 text fields on the form.
+- Add placeholder text in each text field.
+- Make a “Send Message” button on the form.
+- Upon pressing the button, the form should show an error message if any field is left empty.
+- Upon pressing the button, if all the fields are complete, an alert should be displayed on the page that will state “Form Submitted”.
+- Design you page properly.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
