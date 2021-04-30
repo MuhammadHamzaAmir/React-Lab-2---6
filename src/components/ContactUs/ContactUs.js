@@ -39,7 +39,7 @@ const ContactForm = () => {
                       className="form-control formInput"
                       placeholder="Name"
                     ></input>
-                    {errors.name && <p> Name required</p>}
+                    {errors.name && <p style={{color:"white"}}> Name required</p>}
                   </div>
                   <div className="col-6">
                     <input
@@ -69,7 +69,7 @@ const ContactForm = () => {
                       className="form-control formInput"
                       placeholder="Email address"
                     ></input>
-                    {errors.email && <p> Email required</p>}
+                    {errors.email && <p style={{color:"white"}}> Email required</p>}
                   </div>
                 </div>
                 {/* Row 2 of form */}
@@ -87,7 +87,7 @@ const ContactForm = () => {
                       className="form-control formInput"
                       placeholder="Subject"
                     ></input>
-                    {errors.subject && <p> Subject required</p>}
+                    {errors.subject && <p style={{color:"white"}}> Subject required</p>}
                   </div>
                 </div>
                 {/* Row 3 of form */}
@@ -105,7 +105,7 @@ const ContactForm = () => {
                       className="form-control formInput"
                       placeholder="Message"
                     ></textarea>
-                    {errors.message && <p> Message required</p>}
+                    {errors.message && <p style={{color:"white"}}> Message required</p>}
                   </div>
                 </div>
                 <button className="submit-btn" type="submit">
